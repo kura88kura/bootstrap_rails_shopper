@@ -1,5 +1,12 @@
-<h1>New product</h1>
+<div class="page-header">
+    <%= link_to 'Cancel', products_path, :class =>"btn btn-default pull-right" %>
+    <h3>Add new product</h3>
+</div>
 
-<%= render 'form' %>
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+        <%= render 'form' %>
+    </div>
+</div>
 
-<%= link_to 'Back', products_path %>
+
